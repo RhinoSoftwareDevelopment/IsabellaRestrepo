@@ -25,6 +25,7 @@
       margin: 0 3rem;
       color: $color-grey-dark;
       letter-spacing: 1px;
+      transition: color .4s;
     }
     &:hover {
       color: $color-black;
