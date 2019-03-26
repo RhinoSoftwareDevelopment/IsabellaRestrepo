@@ -41,11 +41,11 @@ body {
 
 .heading-primary {
   backface-visibility: hidden;
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem;
+  font-weight: 400; }
   .heading-primary--main {
     display: block;
-    font-size: 6rem;
-    font-weight: 400; }
+    font-size: 6rem; }
 
 .heading-secondary {
   font-size: 2.7rem;
@@ -99,7 +99,7 @@ body {
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
   padding: 1.5rem 4rem;
-  display: inline-block;
+  display: block;
   transition: all 0.2s;
   position: relative;
   border: solid #000 3px;
@@ -172,14 +172,20 @@ body {
     width: 100%;
     filter: grayscale(100%); }
 
-.evaluaciones__card {
-  flex: 0 0 30%; }
-
-.evaluaciones__card-title {
-  margin: auto; }
-
-.evaluaciones__icon {
-  color: linear-gradient(to right bottom, orangered, white); }
+.evaluaciones {
+  display: flex;
+  align-content: stretch;
+  max-width: 155rem;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between; }
+  .evaluaciones__card {
+    flex: 1 1 0;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 0 1rem; }
+  .evaluaciones__title {
+    min-width: 40rem; }
 
 .work__tile {
   flex: 1 0 25%;
