@@ -4,3 +4,35 @@ body {
     line-height: 1.7;
     color: $color-black;
 }
+
+.paragraph {
+    font-size: 1.8rem;
+    text-align: justify;
+    line-height: 2;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
+
+.heading-primary {
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+    
+        // @include respond(phone) {
+        //     letter-spacing: 1rem;
+        //     font-family: 5rem;
+        // }
+    }
+}
+
+.heading-secondary {
+    font-size: 2.7rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+}

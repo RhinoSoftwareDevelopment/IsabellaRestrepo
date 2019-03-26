@@ -1,0 +1,36 @@
+.home {
+
+    margin: 2rem 0;
+    
+    &__headshot {
+        flex: 0 0 50%;
+    }
+
+    &__statement {
+        flex: 0 0 50%;
+    }
+
+    &__bw-image {
+        filter: grayscale(100%);
+        height: 70rem;
+    }
+}
+
+.evaluaciones {
+    &__card {
+        flex: 0 0 30%;
+        // background-color: $color-black;
+        // border: solid $color-black 3px;
+        // padding: 3rem 5rem;
+    }
+
+    &__card-title {
+        // color: $color-white;
+        margin: auto;
+    }
+
+    &__icon {
+        color: linear-gradient(to right bottom, orangered, white);
+        
+    }
+}

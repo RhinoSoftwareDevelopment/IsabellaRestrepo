@@ -4,17 +4,16 @@
   justify-content: space-between;
   max-width: 200rem;
   margin: 0 auto;
-
   &__list {
     display: flex;
     list-style: none;
   }
 
   &__logo {
-      letter-spacing: 3px;
-      font-weight: 900;
-      text-transform: uppercase;
-      font-size: 3rem;
+    letter-spacing: 3px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 3rem;
   }
 
   &__link {
@@ -25,10 +24,13 @@
       margin: 0 3rem;
       color: $color-grey-dark;
       letter-spacing: 1px;
-      transition: color .4s;
+      transition: color 0.4s;
     }
     &:hover {
       color: $color-black;
+    }
+    &--active {
+      color: $color-black !important;
     }
   }
 }

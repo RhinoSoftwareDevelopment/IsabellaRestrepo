@@ -1,0 +1,26 @@
+.work {
+  &__tile {
+    flex: 1 0 25%;
+    margin: 1rem 0;
+    text-transform: capitalize;
+    // background-color: orangered;
+    cursor: pointer;
+    // width: 100%;
+
+    & img {
+      transition: all 0.4s;
+      max-height: 50rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      filter: grayscale(100%);
+    }
+
+    &:hover img {
+      filter: grayscale(0);
+      transform: translateY(-3px);
+      box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+    }
+  }
+}
+
