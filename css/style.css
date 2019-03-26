@@ -165,12 +165,12 @@ body {
 .home {
   margin: 2rem 0; }
   .home__headshot {
-    flex: 0 0 50%; }
+    flex: 0 0 45%; }
   .home__statement {
     flex: 0 0 50%; }
   .home__bw-image {
-    filter: grayscale(100%);
-    height: 70rem; }
+    width: 100%;
+    filter: grayscale(100%); }
 
 .evaluaciones__card {
   flex: 0 0 30%; }
