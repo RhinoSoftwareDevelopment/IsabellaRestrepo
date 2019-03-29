@@ -17,7 +17,7 @@
     &:hover img {
       filter: grayscale(0);
       transform: translateY(-3px);
-      box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+      box-shadow: 0 1.5rem 4rem rgba($color-primary, .4);
     }
   }
 }

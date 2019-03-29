@@ -7,16 +7,16 @@
     display: block;
     transition: all 0.2s;
     position: relative;
-    border: solid $color-black 3px;
+    border: solid $color-primary 3px;
     font-size: 2.5rem;
-    color: $color-black;
+    color: $color-primary;
     cursor: pointer;
   }
 
   &:hover {
     transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
-    background-color: $color-black;
+    box-shadow: 0 1rem 2rem rgba($color-primary, 0.2);
+    background-color: $color-primary;
     color: $color-white;
 
     &::after {
@@ -29,7 +29,7 @@
   &:focus {
     outline: none;
     transform: translateY(-1px);
-    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba($color-primary, 0.2);
   }
 
   &::after {
@@ -78,12 +78,12 @@
   &:hover {
     background-color: $color-primary;
     color: $color-white;
-    box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+    box-shadow: 0 1rem 2rem rgba($color-primary, 0.15);
     transform: translateY(-2px);
   }
 
   &:active {
-    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba($color-primary, 0.15);
     transform: translateY(0);
   }
 }

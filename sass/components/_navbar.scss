@@ -3,17 +3,17 @@
   align-items: center;
   justify-content: space-between;
   max-width: 200rem;
-  margin: 0 auto;
+  margin: 4rem 5rem;
   &__list {
     display: flex;
     list-style: none;
   }
 
   &__logo {
-    letter-spacing: 3px;
+    letter-spacing: .5em;
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 
   &__link {
@@ -21,16 +21,17 @@
     &:visited {
       text-decoration: none;
       text-transform: uppercase;
-      margin: 0 3rem;
+      font-size: 1rem;
+      margin: 0 1rem;
       color: $color-grey-dark;
       letter-spacing: 1px;
       transition: color 0.4s;
     }
     &:hover {
-      color: $color-black;
+      color: $color-primary;
     }
     &--active {
-      color: $color-black !important;
+      color: $color-primary !important;
     }
   }
 }

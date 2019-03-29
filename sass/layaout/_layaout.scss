@@ -2,7 +2,14 @@
   max-width: 155rem;
   width: 90%;
   margin: 0 auto;
-  display: flex;
+  // display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-box {
+  margin: 0 33rem;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
