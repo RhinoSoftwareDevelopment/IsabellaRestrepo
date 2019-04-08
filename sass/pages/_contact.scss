@@ -1,0 +1,15 @@
+.contact {
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  &__name {
+    display: flex;
+    justify-content: space-between;
+
+    input {
+      // margin-right: 1rem;
+      flex: 0 1 49%;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40rem;
+
+    &__content {
+        text-align: center;
+        color: $color-grey-dark;
+    }
+}

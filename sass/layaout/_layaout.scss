@@ -9,10 +9,17 @@
 }
 
 .text-box {
-  margin: 0 33rem;
+  // margin: 0 33rem;
+  margin: 0 auto;
+  margin-top: 20rem;
+  max-width: 87.3rem;;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.title-box {
+  margin: 22rem auto;
 }
 
 .content {
