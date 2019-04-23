@@ -12,4 +12,10 @@
       flex: 0 1 49%;
     }
   }
+  & button {
+    margin-top: 3rem;
+  }
+  textarea {
+    resize: none;
+  }
 }

@@ -3,14 +3,15 @@
   &:link,
   &:visited {
     text-decoration: none;
-    padding: 1.5rem 4rem;
+    padding: 1rem 0;
     display: block;
     transition: all 0.2s;
     position: relative;
-    border: solid $color-primary 3px;
-    font-size: 2.5rem;
+    border: solid $color-primary 1px;
+    font-size: 1.6rem;
     color: $color-primary;
     cursor: pointer;
+    width: 100%;
   }
 
   &:hover {
