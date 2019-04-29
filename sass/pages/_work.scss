@@ -20,5 +20,21 @@
       box-shadow: 0 1.5rem 4rem rgba($color-primary, .4);
     }
   }
+
+  &__list {
+    list-style: none;
+    & a {
+      color: $color-grey-dark;
+      text-decoration: none;
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+
+  &__list-item {
+    text-transform: capitalize;
+    margin-top: 2rem;
+  }
 }
 
