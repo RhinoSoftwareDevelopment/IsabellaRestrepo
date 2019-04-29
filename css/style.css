@@ -92,6 +92,9 @@ hr {
 .u-center-text {
   text-align: center !important; }
 
+.u-right-text {
+  text-align: right !important; }
+
 .u-margin-bottom-small {
   margin-bottom: 1.5rem !important; }
 
@@ -121,6 +124,9 @@ hr {
     font-weight: 900;
     text-transform: uppercase;
     font-size: 1.5rem; }
+    .navbar__logo a {
+      color: inherit;
+      text-decoration: none; }
   .navbar__link:link, .navbar__link:visited {
     text-decoration: none;
     text-transform: uppercase;
