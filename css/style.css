@@ -78,6 +78,8 @@ body {
 .heading-secondary {
   font-weight: 700;
   letter-spacing: 0.2rem; }
+  .heading-secondary--big {
+    font-size: 5rem; }
 
 .heading-tertiary {
   font-weight: 300;
