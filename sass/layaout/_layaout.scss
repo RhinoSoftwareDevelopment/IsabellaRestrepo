@@ -12,7 +12,7 @@
   // margin: 0 33rem;
   margin: 0 auto;
   margin-top: 20rem;
-  max-width: 87.3rem;;
+  max-width: 87.3rem;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -24,4 +24,21 @@
 
 .content {
   display: flex;
+}
+
+.iframe-wrapper {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  margin-bottom: 3rem;
+}
+
+.iframe-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
